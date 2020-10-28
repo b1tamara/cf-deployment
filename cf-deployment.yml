@@ -126,6 +126,7 @@ addons:
       nats_client:
         cert: ((nats_client_cert.certificate))
         key: ((nats_client_cert.private_key))
+      nats_instance_group: nats
     release: metrics-discovery
 
 - name: metrics-agent
